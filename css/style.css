@@ -79,6 +79,14 @@ header{
     background-color: rgb(113, 113, 139);
 }
 
+.bg-black{
+    background-color: black;
+}
+
+.bg-white{
+    background-color: white;
+}
+
 .margin-0-auto{
     margin: 0 auto;
 }
