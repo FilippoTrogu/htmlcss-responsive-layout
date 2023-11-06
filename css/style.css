@@ -122,6 +122,10 @@ header{
 
 @media screen and (min-width: 768px){
     .container{
+        width: 100%;
+    }
+
+    .sub-container{
         max-width: 80%;
         margin: 0 auto;
     }
