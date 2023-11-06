@@ -58,6 +58,25 @@ header{
     border: 1px solid black;
 }
 
+/* ID */
+
+#nav{
+    right: 20px;
+    top: 17px
+}
+
+
+
+#logo{
+    top: 7px;
+    left: 15px; 
+}
+
+.nav-ext{
+    display: none;
+    color: white;
+ 
+}
 
 
 
@@ -102,6 +121,14 @@ header{
     width: 95%;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
 
 /* MEDIA Q */
 
@@ -132,6 +159,26 @@ header{
 
     .col-4th{
         width: calc(100% / 3 - 10px);
+    }
+
+    #nav{
+        display: none;
+    }
+
+    .nav-ext{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 400px;
+        padding-top: 14px;
+    }
+
+    #get-started{
+        color: black;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: white;
+        margin-bottom: 10px
     }
     
 }
